@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:fit-content ;
+    width:100%; 
+    font-family: cursive; 
+}
+.navbar{
+    background-color: rgb(231, 96, 137);
+    
+}
+.navbar-brand{ 
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    color: rgb(246, 243, 239);
+    
+    
+}
+
+
+.footer{
+   
+    border-top: 1px solid rgb(163, 154, 154);
+    background-color: rgb(231, 96, 137);;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+
+}
+h3{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(25, 118, 210);
+
+}
+.login-parent{
+    
+    width:100%;
+    height:100vh;
+    align-items: center;
+    
+}
+.login-child{
+    border:1px solid rgb(224, 213, 213);
+    box-shadow: 1px 1px 4px 4px rgb(225, 220, 220);;
+    width:400px;
+    height:300px;
+    align-items: center;
+    padding: 2%;
+     margin: auto;
+     transform: translateY(100px);
+
+}
+input{
+   width:380px;
+   padding: 2%;
+   margin-top:10px;
+   border:none;
+   letter-spacing: 1px;
+   border-bottom:1px solid  rgb(231, 96, 137);
+
+}
+
+.btn-class{
+   margin:50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.btn-login{
+    padding:10px;
+    width: 100px;
+    background-color:rgb(231, 96, 137);
+    border:none;
+    color:white;
+    letter-spacing: 1px;
+    
+}
+.btn-reg{
+    padding:10px;  
+    border:1px solid rgb(231, 96, 137);
+    letter-spacing: 1px;
+    color:rgb(231, 96, 137);
+    text-decoration: none;
+}
+.btn-login:hover{
+    opacity:0.4;
+    
+}
+.btn-reg:hover{
+    color: aliceblue;
+    background-color:rgb(231, 96, 137) ;
+    
+}
+
+.login-head{
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgb(231, 96, 137);
+    font-weight: 600;
+    margin-left: 35%;
+   
+}
+.each-item{
+    border:1px solid rgb(224, 213, 213);
+    box-shadow: 1px 1px 4px 4px rgb(225, 220, 220);;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.item-title{
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size: 20px;
+    color: black;
+
+
+}
+.item-content{
+    font-size: 15px;
+}
+.item-btn{
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    
+}
+
+.intro-home{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+.home-intro{
+    font-size: 25px;
+    
+
+}
+.home-intro i{
+    color: royalblue;
+}
+.home-time{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.curr-time{
+    color: royalblue;
+    font-size: 15px;
+}
+.compose-title{
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+
+}
+.compose-btn{
+    
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    color:rgb(25, 118, 210);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.compose-form{
+    
+    border: 1px solid rgb(202, 192, 192);
+    box-shadow: 1px 1px 4px 4px rgb(225, 220, 220);
+    margin-bottom: 10px;
+    padding: 3%;
+}
+.contact-parent,.about-parent{
+    display: flex;
+    padding: 5%;
+    height: 80vh;
+    
+}
+.compose-parent{
+    padding: 5%;
+    height: 80vh;
+    
+}
+.contactchild1{
+    height: 80vh;
+    width: 50vw;
+    padding: 1%;
+}
+.contactchild2{  
+    width: 90vw;
+}
+
+.contactlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+

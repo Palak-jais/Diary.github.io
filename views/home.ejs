@@ -1,0 +1,28 @@
+<%-include("partials/header")-%>
+
+
+ 
+<div class="container">
+  <form action="/compose" method="post"> 
+    <p class="home-intro">Welcome to <i>Daily Diary!</i> Enjoy your writings by going to compose-></p>
+  <button  class="btn btn-primary item-btn">COMPOSE</button>
+  </form>
+</div>  
+
+
+<% for(var i=0;i<userarray.length;i++) { %>
+
+      <div class="each-item"> 
+        <div class="home-time">   
+          <p class="item-title"><%= userarray[i].title %> </p>
+          <p class="curr-time"><%= userarray[i].time%></p>
+        </div> 
+          <p class="item-content"><%= userarray[i].content%></p>
+        
+      </div>
+  </li>
+
+  <% } %>
+ 
+
+
